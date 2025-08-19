@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en" >
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Twister</title>
+  <meta name="title" content="HAPPYCHICKEN">
+  <meta name="description" content="This is a Restaurant html template made by AmymahMiftah">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Twister</p>
+  </div>
+
+  <!-- 
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <a href="https://maps.app.goo.gl/rbASPFRNvHE1KYng7" class="icon icon-color" target="_blank" rel="noopener noreferrer">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </a>
+
+
+        <span class="span">
+           مدخل البيضاء الغربي, مفترق سيدي رافع
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon icon-color">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">  ساعات العمل من 10:00 صباحا  الى 11:00 مساءا</span>
+
+      </div>
+
+      <div class = "topbar-item  tels" >
+        <div class="icon icon-color">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <a href="tel:0910405491" class="link">
+          <span class="span">0910405491</span>
+        </a>
+        <span class="span"> | </span>
+        <a href="tel:0928850966" class=" link">
+          <span class="span">0928850966</span>
+        </a>
+      </div>
+      <div class="separator"></div>
+
+
+    </div>
+  </div>
+  
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container" style="height: 40px;">
+
+      <a href="#" class="logo desk">
+        <img src="./assets/images/logo.png"  alt="SteakHome">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="160" height="140" alt="SteakHome">
+        </a>
+
+        <ul class="navbar-list" dir = 'rtl'>
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span arabic-text">الصفحة الرئسية</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="main.html" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span arabic-text">الوجبات</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="backing.html" class="navbar-link hover-underline" >
+              <div class="separator"></div>
+
+              <span class="span arabic-text">المخبوزات</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="drinks.html" class="navbar-link hover-underline" >
+              <div class="separator"></div>
+
+              <span class="span arabic-text">المشروبات</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">زرونا</p>
+
+          <address  style="display: inline-flex;">
+            
+            <span class="span body-4">
+              مدخل البيضاء الغربي, مفترق سيدي رافع
+            </span>
+            <a href="https://maps.app.goo.gl/rbASPFRNvHE1KYng7" class="icon icon-color body-1"  target="_blank" rel="noopener noreferrer">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </address>
+
+          <p class="menu-text text-center" dir="rtl">
+            ساعات العمل <span class="span">10:00 صباحا </span> الى <span class="span">10:00 مساءا</span>
+          </p>
+
+          <div class="tels" style="display: inline-flex;">
+            <a href="tel:0910405491" class="body-3 contact-number hover-underline">
+              0910405491
+            </a>
+            <span class="span"> | </span>
+            <a href="tel:0928850966" class="body-3 contact-number hover-underline">
+              0928850966
+            </a>
+          </div>
+        </div>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+<!--
+  Main
+  -->
+
+
+  <main class = 'main-menu'>
+    <article>
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container">
+
+          <p class="section-subtitle text-center headline-2 arabic-text" style="color: aliceblue;"> استمتع بأشهى المأكولات</p>
+
+         <!--<h2 class="headline-1 section-title text-center">Delicious Menu</h2>-->
+
+          <div class="menu_box">
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/buger.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Buger</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                </div>
+
+            </div> 
+            
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/pasta.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>pasta</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/lasagna.webp">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>lasagna</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/chocolate_Drink.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Drink</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/pizza.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>pizza</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/Hot_dog.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Hot Dog</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/juse.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Juse</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/biryani.webp">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Biryani</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/chocolate.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Chocolate</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/ice_cream.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Ice Cream</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/Spanchi.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Spanchi</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="./assets/images/sandwich.jpg">
+                </div>
+
+                <div class="small_card">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="menu_info">
+                    <h2>Sandwich</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum assumenda voluptates
+                    </p>
+                    <h3>$20.00</h3>
+                    
+                </div>
+
+            </div> 
+            
+        </div>
+
+          <p class="menu-text text-center" dir="rtl">
+            ساعات العمل <span class="span">10:00 صباحا </span> الى <span class="span">10:00 مساءا</span>
+          </p>
+
+          <a href="index.html" class="btn btn-primary arabic-text" dir="rtl">
+            <span class="text text-1 ">القائمة الرئسية</span>
+
+            <span class="text text-2 " aria-hidden="true">القائمة الرئسية</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+          <img src="./assets/images/shape-6.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-3 move-anim">
+
+        </div>
+      </section>
+    
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+   <footer class="footer section text-center sub-pages">
+    <div class="container">
+      
+        <p class="copyright">
+          &copy; 2025<span style="color: red;">Twister.</span>All Rights Reserved
+        </p>
+    </div>
+  </footer>
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
